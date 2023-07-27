@@ -1,0 +1,880 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
+
+body{
+    margin: 0;
+    background-color: rgb(21, 18, 42);
+    height: 100%;
+    position: relative;
+    
+}
+
+main{
+  height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header img{
+    margin: 10px 0 10px 20px;
+    height: 75px;
+}
+
+header hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2{
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 25px;
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dettagli h3{
+  margin-top: 0;
+}
+
+.dettagli button{
+  margin: 10px auto 0;
+  width: 100px;
+  height: 30px;
+  line-height: 14px;
+}
+
+.dettagli p{
+  height: 80px;
+  font-size: 1vmin;
+}
+
+.titolini h2{
+float: left;
+width: 50%;
+margin-bottom: 35px;
+}
+
+.titolini{
+overflow: hidden;
+}
+
+header p{
+    color: white;
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px 25px;
+    margin-top: 54px;
+    margin-right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+header p:hover{
+    background-color: rgba(255, 228, 196, 0.075);
+}
+
+.grid .top{
+  width: 100%;
+}
+
+.grid .container{
+  margin: 8px;
+}
+
+.grid .child-grid{
+  width: calc((100%/3.23));
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 240px;
+  height: 350px;
+  margin: 50px 5px;
+  background: #2a264f;
+  border: 5px solid #1a163f;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #2a264f;
+  transition: 0.2s;
+}
+
+.main{
+  width: 270px;
+  height: 420px;
+}
+
+
+.film-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#imm1 {
+  background-image: url(../src/film/avengers-endgame.jpg);
+}
+#imm2 {
+  background-image: url(../src/film/shining.jpg);
+}
+#imm3 {
+  background-image: url(../src/film/rocky.jpg);
+}
+#imm4 {
+  background-image: url(../src/film/back-to-the-future.jpg);
+}
+#imm5 {
+  background-image: url(../src/film/james-bond-no-time-to-die.jpg);
+}
+#imm6 {
+  background-image: url(../src/film/the-batman.jpg);
+}
+#imm7 {
+  background-image: url(../src/film/bb.jpg);
+}
+#imm8 {
+  background-image: url(../src/film/peaky-blinders.jpg);
+}
+#imm9 {
+  background-image: url(../src/film/pulp.jpg);
+}
+#imm10 {
+  background-image: url(../src/film/dark-knight.jpg);
+}
+#imm11 {
+  background-image: url(../src/film/jaws.jpg);
+}
+#imm12 {
+  background-image: url(../src/film/the-matrix-resurrections.jpg);
+}
+#imm13 {
+  background-image: url(../src/film/il-re-leone.jpg);
+}
+#imm14 {
+  background-image: url(../src/film/got.webp);
+}
+#imm15 {
+  background-image: url(../src/film/friends.jpg);
+}
+#imm16 {
+  background-image: url(../src/film/bojack.jpg);
+}
+#imm17 {
+  background-image: url(../src/film/rick.jpg);
+}
+#imm18 {
+  background-image: url(../src/film/scarface.jpg);
+}
+#imm19 {
+  background-image: url(../src/film/top-gun.jpg);
+}
+#imm20 {
+  background-image: url(../src/film/ghostbusters.jpg);
+}
+#imm21 {
+  background-image: url(../src/film/rick.jpg);
+}
+#imm22 {
+  background-image: url(../src/film/dr-house.jpg);
+}
+#imm23 {
+  background-image: url(../src/film/grey.jpg);
+}
+#imm24 {
+  background-image: url(../src/film/the-boys.jpg);
+}
+.container:hover .dettagli {
+  transform: translate(0);
+}
+
+.container:hover{
+    scale: 1.1;
+    transition: 0.4s;
+}
+
+
+.container .dettagli {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  padding: 10px;
+  height: 400px;
+  font-size: 10px;
+  text-align: center;
+  background: #000000c4;
+  color: #fff;
+  transform: translate(0, 240px);
+  transition: all 0.5s ease;
+  cursor: default;
+}
+
+.top{
+  flex-wrap: wrap;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 9px 1fr ;
+  justify-items: center;
+  align-items: center;
+}
+
+.linea{
+  width: 1px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.671);
+  grid-row: 1;
+  grid-column: 2 / 3;
+  margin-bottom: 10px;
+}
+
+
+#entrata{
+    display: none;
+}
+
+.opaco{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers input{
+  display: block;
+  margin: 10px auto 0;
+  width: 55px;
+}
+
+
+button {
+  background-color: cornflowerblue;
+  padding: 8px;
+  box-shadow: 0 0 0.5em cornflowerblue;
+  border-radius: 0.3em;
+  width: 10em;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 30px auto 20px;
+  display: block;
+}
+
+button:hover{
+  scale: 1.1;
+  transition:0.5s;
+}
+
+#button{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  transform: translate(-50%,-50%);
+}
+
+/*#region Form */
+
+  label[for="email"],
+  label[for="password"]{
+    display: block;
+    min-width: 150px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    padding: 15px 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+  }
+  
+  #inserisci-email{
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+  
+  #inserisci-email2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #inserisci-password{
+    margin-bottom: 50px;
+  }
+  
+  .blocco{
+    display: block;
+  }
+  
+
+
+  #nuovo-cliente #inserisci-email{
+    margin-top: 45px;
+    margin-bottom: 30px;
+  }
+  
+  #nuovo-cliente #inserisci-password{
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  
+  form p,
+  form div{
+    text-align: center;
+  }
+  
+  form a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.658);
+    margin-top: 8px;
+  }
+  
+form a:hover{
+    color: white;
+}
+
+
+  .errore{
+    background-color: rgb(196, 94, 94);
+    border-color: red;
+  }
+
+  .errore::placeholder{
+    color: rgba(255, 255, 255, 0.459);
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  fieldset{
+    width: 380px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color:rgb(21, 18, 42);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+  }
+  
+  #nuovo-cliente{
+    display: none;
+    transition: 0.5s;
+  }
+  
+  #registra input[type="checkbox"]{
+    display: block;
+    float: left;
+    margin-left: 5px;
+  }
+  
+  label[for="informativa"]{
+    font-size: 10px;
+    margin-top: 3px;
+    display: block;
+    float: left;
+  }
+
+  .info{
+    width: 310px;
+    overflow: hidden;
+    margin: 0 auto 35px;
+  }
+
+  form span{
+    font-size: 12px;
+    line-height: 1px ;
+    color: rgba(255, 255, 255, 0.63);
+
+  }
+
+  #privacy-span{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.63);
+  }
+
+  .fa-solid{
+    margin-top: 15px;
+    cursor: pointer;
+  }
+/*#endregion End Form */
+
+/*#region card*/
+.my-card {
+  display: none;
+  width: 80%;
+  max-width: 850px;
+  height: fit-content;
+  border: 5px solid rgb(59, 50, 117);
+  border-radius: 10px;
+  background: rgb(16,14,32);
+  background: linear-gradient(135deg, rgba(16,14,32,1) 0%, rgba(36,32,68,1) 65%, rgba(121,33,1,1) 100%);
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.vetro{
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  transition: 1s;
+}
+
+.my-card button{
+  display: inline-block;
+}
+
+
+.vetro iframe{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.my-card .trailer{
+  margin-right: 25px;
+  scale: 0.9;
+}
+
+.my-card .trailer:hover{
+  scale: 1;
+}
+
+.my-card-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.my-card-col {
+  flex: 1;
+  padding: 10px;
+}
+
+.my-card-img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.my-card-body {
+  padding: 10px;
+  color: white;
+}
+
+.my-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  backdrop-filter: blur(15px);
+  width: fit-content;
+}
+
+.my-card-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  backdrop-filter: blur(15px);
+}
+
+.my-card-text h4{
+  display: inline;
+}
+
+#xcard{
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 25px;
+}
+
+#xtrailer{
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 25px;
+}
+
+#xcard .quit{
+  z-index: 5;
+}
+
+.rating{
+  backdrop-filter: blur(15px);
+  width: fit-content;
+}
+/*#endregion card*/
+
+/*#region footer*/
+footer{
+  height: 150px;
+  background-color: wheat;
+  margin-top: 25px;
+  background-color: #2a264f;
+  text-align: center;
+  color: #ccc;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+footer p{
+  padding-top: 35px;
+}
+
+
+footer a{
+  margin:10px;
+  font-size: 20px;
+}
+/*#endregion footer*/
+
+/*#region modulo-contatti*/
+#contatti{
+   position: fixed;
+   width: 100px;
+   height: 100px;
+   background-color: rgb(21, 18, 42);
+   right: 30px;
+   bottom: 30px;
+   border: 3px solid #d63e07;
+   border-radius: 50%;
+   cursor: pointer;
+   text-align: center;
+   font-size: 12px;
+   transition: 1s;
+   color: white;
+   box-shadow: 0 0 10px #0d0c18;
+}
+
+#contatti i{
+  font-size: 22px;
+  display: block;
+  margin-top: 28px;
+}
+
+#contatti:hover{
+  scale: 1.3;
+}
+
+#modulo{
+  border: 3px solid white;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(21, 18, 42);
+  position: fixed;
+  width: 100%;
+  height: fit-content;
+  max-width: 1400px;
+  top: 100px;
+  transform: translate(2800px,0);
+  transition: all 0.8s ease;
+  display: none;
+}
+
+#modulo form h2{
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 0;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#modulo form{
+  width: 50%;
+}
+
+#info-lab{
+  width: 50%;
+}
+
+#info-lab h3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+#info-lab span{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#info-lab iframe{
+  width: 100%;
+  height: 400px;
+  padding-right: 35px;
+  padding-bottom: 30px;
+}
+
+#info-lab a{
+  display: block;
+  width: fit-content;
+  color: white;
+  text-decoration: none;
+}
+
+#info-lab a i{
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+#info-lab .fa-whatsapp{
+  margin-top: 15px;
+}
+
+#info-lab .fa-phone,
+#info-lab .fa-envelope{
+  font-size: 25px;
+}
+
+#info-lab a:hover{
+  color: rgba(255, 255, 255, 0.747);
+  text-decoration:underline;
+}
+
+#info-lab p{
+  padding-right: 15px;
+  font-size: 12px;
+}
+
+#modulo label[for="email-contatti"],
+label[for="telefono"],
+label[for="commento"]{
+  display: block;
+}
+
+.field{
+  margin-top: 15px;
+}
+
+
+#modulo #commento,
+#nome-contatti,
+#cognome-contatti,
+#email-contatti,
+#telefono{
+  width: 350px;
+  text-align: center;
+  height: 30px;
+}
+
+
+#modulo #commento{
+  height: 120px;
+}
+
+label[for="accetto-contatti"]{
+  font-size: 12px;}
+
+
+/*#endregion modulo-contatti*/
+
+.ordine{
+  order: 1;
+  flex: none;
+  width: 100%;
+}
+
+.ordine h5{
+  margin: 0;
+  font-size: 25px;
+}
+
+.ordine p{
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.ordine button{
+  margin: 0;
+}
+
+.ordine .bottoni{
+  text-align: center;
+  height: fit-content;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/*#region SerieTv*/
+.episodi{
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  overflow:auto;
+}
+
+.episodi::-webkit-scrollbar {
+  height: 7px;
+}
+
+.episodi::-webkit-scrollbar-track {
+  background-color: #cccccc7c;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.episodi::-webkit-scrollbar-thumb {
+  background-color: rgb(59, 50, 117);
+  border-radius: 10px;
+}
+
+.episodi p{
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  backdrop-filter: blur(10px);
+  cursor: default;
+}
+
+.episodi img{
+  transition: 0.5s;
+  filter: brightness(50%);
+}
+
+.episodi img:hover{
+  filter: brightness(70%);
+}
+
+.episodi p:hover + i{
+  transition: 0.9s;
+  opacity: 1;
+  text-shadow: 15px 15px 15px black;
+}
+
+.episodi img:hover ~ i{
+  transition: 0.9s;
+  opacity: 1;
+  text-shadow: 15px 15px 15px black;
+}
+
+.ordine .my-card-text{
+  width: 65%;
+}
+
+.fotoserie{
+  position: absolute;
+  top: -20px;
+  right: 10px;
+ transform: scale(60%);
+}
+
+.div-episodi img{
+  width:120px;
+}
+
+.div-episodi{
+  padding: 15px;
+  position: relative;
+}
+
+.div-episodi i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 50px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.div-episodi i:hover{
+  opacity: 1;
+}
+
+.stagioni{
+  display: none;
+}
+
+select {
+  appearance: none;
+  border: 0;
+  width: 160px;
+  height: 30px;
+  padding: 0 1em 0 1em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
+      no-repeat right 1em center / 1em,
+      #ffffff1f;
+  color: white;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+option {
+  background-color: #868096;
+}
+select:focus {
+  outline: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+
+
+/*#endregion SerieTv*/
+
+@media screen and (max-width:1378px){
+ 
+.grid .child-grid{
+  width: calc(100%/2.2);
+  height: 450px;
+}
+
+}
