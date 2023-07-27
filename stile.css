@@ -127,76 +127,76 @@ header p:hover{
 }
 
 #imm1 {
-  background-image: url(../src/film/avengers-endgame.jpg);
+  background-image: url(src/film/avengers-endgame.jpg);
 }
 #imm2 {
-  background-image: url(../src/film/shining.jpg);
+  background-image: url(src/film/shining.jpg);
 }
 #imm3 {
-  background-image: url(../src/film/rocky.jpg);
+  background-image: url(src/film/rocky.jpg);
 }
 #imm4 {
-  background-image: url(../src/film/back-to-the-future.jpg);
+  background-image: url(src/film/back-to-the-future.jpg);
 }
 #imm5 {
-  background-image: url(../src/film/james-bond-no-time-to-die.jpg);
+  background-image: url(src/film/james-bond-no-time-to-die.jpg);
 }
 #imm6 {
-  background-image: url(../src/film/the-batman.jpg);
+  background-image: url(src/film/the-batman.jpg);
 }
 #imm7 {
-  background-image: url(../src/film/bb.jpg);
+  background-image: url(src/film/bb.jpg);
 }
 #imm8 {
-  background-image: url(../src/film/peaky-blinders.jpg);
+  background-image: url(src/film/peaky-blinders.jpg);
 }
 #imm9 {
-  background-image: url(../src/film/pulp.jpg);
+  background-image: url(src/film/pulp.jpg);
 }
 #imm10 {
-  background-image: url(../src/film/dark-knight.jpg);
+  background-image: url(src/film/dark-knight.jpg);
 }
 #imm11 {
-  background-image: url(../src/film/jaws.jpg);
+  background-image: url(src/film/jaws.jpg);
 }
 #imm12 {
-  background-image: url(../src/film/the-matrix-resurrections.jpg);
+  background-image: url(src/film/the-matrix-resurrections.jpg);
 }
 #imm13 {
-  background-image: url(../src/film/il-re-leone.jpg);
+  background-image: url(src/film/il-re-leone.jpg);
 }
 #imm14 {
-  background-image: url(../src/film/got.webp);
+  background-image: url(src/film/got.webp);
 }
 #imm15 {
-  background-image: url(../src/film/friends.jpg);
+  background-image: url(src/film/friends.jpg);
 }
 #imm16 {
-  background-image: url(../src/film/bojack.jpg);
+  background-image: url(src/film/bojack.jpg);
 }
 #imm17 {
-  background-image: url(../src/film/rick.jpg);
+  background-image: url(src/film/rick.jpg);
 }
 #imm18 {
-  background-image: url(../src/film/scarface.jpg);
+  background-image: url(src/film/scarface.jpg);
 }
 #imm19 {
-  background-image: url(../src/film/top-gun.jpg);
+  background-image: url(src/film/top-gun.jpg);
 }
 #imm20 {
-  background-image: url(../src/film/ghostbusters.jpg);
+  background-image: url(src/film/ghostbusters.jpg);
 }
 #imm21 {
-  background-image: url(../src/film/rick.jpg);
+  background-image: url(src/film/rick.jpg);
 }
 #imm22 {
-  background-image: url(../src/film/dr-house.jpg);
+  background-image: url(src/film/dr-house.jpg);
 }
 #imm23 {
-  background-image: url(../src/film/grey.jpg);
+  background-image: url(src/film/grey.jpg);
 }
 #imm24 {
-  background-image: url(../src/film/the-boys.jpg);
+  background-image: url(src/film/the-boys.jpg);
 }
 .container:hover .dettagli {
   transform: translate(0);
