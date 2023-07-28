@@ -284,7 +284,7 @@ let infoFilm = {
         "a2":"src/film/bb.jpg",
         "a3":"src/film/bb.jpg",
         "a4":"src/film/bb.jpg",
-        "a5":".src/film/bb.jpg",
+        "a5":"src/film/bb.jpg",
         "trailer":"https://www.youtube.com/embed/HhesaQXLuRY"
     },
     "C":{
@@ -334,7 +334,7 @@ let infoFilm = {
         "anno":"2014-2020",
         "rating":"8.8",
         "img":"src/film/bojack.jpg",
-        "a1":".src/film/bojack.jpg",
+        "a1":"src/film/bojack.jpg",
         "a2":"src/film/bojack.jpg",
         "a3":"src/film/bojack.jpg",
         "a4":"src/film/bojack.jpg",
@@ -410,7 +410,7 @@ let infoFilm = {
         "a2":"src/film/grey.jpg",
         "a3":"src/film/grey.jpg",
         "a4":"src/film/grey.jpg",
-        "a5":".src/film/grey.jpg",
+        "a5":"src/film/grey.jpg",
         "trailer":"https://www.youtube.com/embed/q1pcpgREQ5c"
     }
 }
