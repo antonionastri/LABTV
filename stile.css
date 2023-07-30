@@ -1,11 +1,11 @@
 @font-face{
   font-family:asterone;
-  src: url(../src/fonts/Bisect.otf);
+  src: url(src/fonts/Bisect.otf);
 }
 
 @font-face {
   font-family: titoli;
-  src: url(../src/fonts/Asterone\ DEMO.ttf);
+  src: url(src/fonts/Asterone\ DEMO.ttf);
 }
 
 *{
