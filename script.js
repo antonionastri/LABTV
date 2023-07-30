@@ -1,16 +1,11 @@
+//GESTIONE LOGIN, REGISTRAZIONE E COMPARSA/SCOMPARSA POPUP//
+
 const pulsanteLogin = document.querySelector(".wrapper p")
 const formLogin = document.getElementById("entrata")
 const sfondoLogin = document.querySelector(".opaco")
-
 const nuovoformLogin = document.getElementById("registra")
-
-
-let containerButton = document.querySelectorAll(".containers button")
+const containerButton = document.querySelectorAll(".containers button")
 const main = document.querySelector("main")
-
-
-pulsanteLogin.addEventListener("click", comparsa)
-
 const accedi = document.getElementById("accedi")
 const registrati = document.getElementById("registrati")
 const cliente = document.getElementById("cliente")
@@ -18,20 +13,21 @@ const nuovoCliente = document.getElementById("nuovo-cliente")
 const ritornaLogin = document.getElementById("torna-login")
 const xbutton = document.querySelectorAll(".fa-solid")
 
-function comparsa(){
+pulsanteLogin.addEventListener("click", comparsa) //azione click sul tasto login/registrati
+
+function comparsa(){ //funzione comparsa modulo login e scomparsa bottone login in secondo piano
     formLogin.style.display = "block"
     pulsanteLogin.style.opacity = "0"
     pulsanteLogin.style.cursor = "default"
     sfondoLogin.style.display = "block"
 }
 
-registrati.onclick = function(){
+registrati.onclick = function(){ //azione click su "registrati!" e cambio modulo da login a registrazione
     cliente.style.display = "none"
     nuovoCliente.style.display = "block"
 }
 
-
-ritornaLogin.onclick = function(){
+ritornaLogin.onclick = function(){ //azione click su "hai già un account?" e cambio modulo da registrazione a login
     cliente.style.display = "block"
     nuovoCliente.style.display = "none"
     email.value = ""
@@ -53,14 +49,14 @@ ritornaLogin.onclick = function(){
     informativa.checked = false
 }
 
-for(let i = 0; i<xbutton.length; i++){
+for(let i = 0; i<xbutton.length; i++){ //ciclo for per assegnare la funzione blackout al click su ogni elemento "X" all'interno della card
 xbutton[i].addEventListener("click", ()=>{
     blackout()
 })}
 
-sfondoLogin.onclick = blackout
+sfondoLogin.onclick = blackout //assegnazione funzione blackout al div opaco che permette la classica chiusura del popup appena aperto
 
-function blackout(){
+function blackout(){ //funzione di "reset" di ogni possibile azione avviata in precedenza
     formLogin.style.display = "none"
     pulsanteLogin.style.opacity = "1"
     pulsanteLogin.style.cursor = "pointer"
@@ -86,15 +82,15 @@ function blackout(){
     moduloContatti.style.transform = "translate(2800px,0)"
     contatti.style.display = "block"
     nomeContatti.classList.remove("errore")
-        cognomeContatti.classList.remove("errore")
-        emailContatti.classList.remove("errore")
-        telefonoContatti.classList.remove("errore")
-        condizioniContatti.checked = false
-        spanNomeContatti.innerHTML=""
-        spanCognomeContatti.innerHTML=""
-        spanEmailContatti.innerHTML=""
-        spanTelefonoContatti.innerHTML=""
-        spanCondizioniContatti.innerHTML=""
+    cognomeContatti.classList.remove("errore")
+    emailContatti.classList.remove("errore")
+    telefonoContatti.classList.remove("errore")
+    condizioniContatti.checked = false
+    spanNomeContatti.innerHTML=""
+    spanCognomeContatti.innerHTML=""
+    spanEmailContatti.innerHTML=""
+    spanTelefonoContatti.innerHTML=""
+    spanCondizioniContatti.innerHTML=""
     videoTrailer.innerHTML = ""
     imgCard.classList.remove("ordine2")
     testiCard.classList.remove("ordine")
@@ -102,14 +98,11 @@ function blackout(){
     stagioni.style.display="none"
 }
 
+//================================================================================================================
 
-const email = document.querySelector("#email")
-const password = document.querySelector("#password")
-const email2 = document.querySelector("#email2")
-const password2 = document.querySelector("#password2")
-const ripassword = document.querySelector("#ripassword")
+//GESTIONE INFORMAZIONI FILM/SERIE TV//
 
-let infoFilm = {
+let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richiedere
     "1":{
         "titolo": "Avengers: endgame",
         "sinossi":"Alla deriva nello spazio senza cibo o acqua, Tony Stark vede la propria scorta di ossigeno diminuire di minuto in minuto. Nel frattempo, i restanti Vendicatori affrontano un epico scontro con Thanos.",
@@ -415,7 +408,6 @@ let infoFilm = {
     }
 }
 
-
 let card = document.querySelector(".my-card")
 let internoCard = document.querySelector(".my-card-row")
 let titoloCard = document.querySelector(".my-card-title")
@@ -431,7 +423,7 @@ let episodi = document.querySelector(".episodi")
 let stagioni = document.querySelector(".stagioni")
 
 
-for (let i = 0; i < containerButton.length; i++){
+for (let i = 0; i < containerButton.length; i++){ //ciclo for per gestire i bottoni in hover sulle copertine
 containerButton[i].addEventListener("click", ()=>{
     sfondoLogin.style.display = "block"
     card.style.display = "block"
@@ -441,9 +433,7 @@ containerButton[i].addEventListener("click", ()=>{
     function mostraInfo(value){
     let dettagli = infoFilm[value]
 
-
-
-if(dettagli.genere != "Serie TV"){
+if(dettagli.genere != "Serie TV"){ //gestione stampa informazioni film
     
     titoloCard.innerHTML = `<h3>${dettagli.titolo}</h3>`
     sinossiCard.innerHTML = `
@@ -455,7 +445,7 @@ if(dettagli.genere != "Serie TV"){
     `    
     imgCard.innerHTML = `<img src="${dettagli.img}" class="my-card-img" alt="..."></img>`
          
-} else{
+} else{ //gestione stampa informazioni serie tv
     testiCard.classList.add("ordine")
     titoloCard.innerHTML = `<h3>${dettagli.titolo}</h3>`
     sinossiCard.innerHTML = `
@@ -547,11 +537,19 @@ for (let i = 0; i < trailerButton.length; i++){
 
 }
 
+//================================================================================================================
 
-let campoEmail = document.querySelector("#campo-email")
-let campoPass = document.querySelector("#campo-pass")
+//GESTIONE VALIDAZIONE CAMPI LOGIN E REGISTRAZIONE//
 
-formLogin.addEventListener("submit", (event)=>{
+const email = document.querySelector("#email")
+const password = document.querySelector("#password")
+const email2 = document.querySelector("#email2")
+const password2 = document.querySelector("#password2")
+const ripassword = document.querySelector("#ripassword")
+const campoEmail = document.querySelector("#campo-email")
+const campoPass = document.querySelector("#campo-pass")
+
+formLogin.addEventListener("submit", (event)=>{ //preventDefault del submit, regExp e gestione errore del form login
     
     for(let i=0; i<formLogin.elements.length - 1; i++){
         formLogin.elements[i].addEventListener("focus", gestisciResetCampo)
@@ -619,14 +617,13 @@ function gestisciErroreCampo(campoX, campoY, validityCampoX, messaggioErrore){
     
 })
 
-
 let campoEmail2 = document.querySelector("#campo-email2")
 let campoPass2 = document.querySelector("#campo-pass2")
 let campoRipass = document.querySelector("#campo-ripass")
 let privacy = document.querySelector("#privacy-span")
 let informativa = document.querySelector("#informativa")
 
-nuovoformLogin.addEventListener("submit", (event)=>{
+nuovoformLogin.addEventListener("submit", (event)=>{ //preventDefault del submit, regExp e gestione errore del form di registrazione
     
     for(let i=0; i<nuovoformLogin.elements.length - 1; i++){
         nuovoformLogin.elements[i].addEventListener("focus", gestisciResetCampo)
@@ -723,14 +720,18 @@ function gestisciErroreCampo(campoX, campoY, validityCampoX, messaggioErrore){
     
 })
 
+//================================================================================================================
+
+//GESTIONE POPUP "CONTATTACI!" E COMPARSA POPUP CONTATTI
+
 const contatti = document.getElementById("contatti")
 const moduloContatti = document.getElementById("modulo")
 
-contatti.addEventListener("click", ()=>{
-moduloContatti.style.display = "flex"
-sfondoLogin.style.display = "block"
-moduloContatti.style.transform = "translate(0)"
-contatti.style.display = "none"
+contatti.addEventListener("click", ()=>{ //gestione click popup "contattaci!"
+    moduloContatti.style.display = "flex"
+    sfondoLogin.style.display = "block"
+    moduloContatti.style.transform = "translate(0)"
+    contatti.style.display = "none"
 })
 
 const formContatti = document.querySelector("#form-contatti")
@@ -746,7 +747,7 @@ const emailContatti = document.getElementById("email-contatti")
 const telefonoContatti = document.getElementById("telefono")
 const condizioniContatti = document.getElementById("accetto-contatti")
 
-formContatti.addEventListener("submit", (event)=>{
+formContatti.addEventListener("submit", (event)=>{ //preventDefault del submit, regExp e gestione errore del modulo contatti
     
     for(let i=0; i<formContatti.elements.length - 1; i++){
         formContatti.elements[i].addEventListener("focus", gestisciResetCampo)
@@ -851,3 +852,5 @@ function gestisciErroreCampo(campoX, campoY, validityCampoX, messaggioErrore){
    
     
 })
+
+//================================================================================================================
