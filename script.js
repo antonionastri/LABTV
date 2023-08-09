@@ -106,7 +106,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "1":{
         "titolo": "Avengers: endgame",
         "sinossi":"Alla deriva nello spazio senza cibo o acqua, Tony Stark vede la propria scorta di ossigeno diminuire di minuto in minuto. Nel frattempo, i restanti Vendicatori affrontano un epico scontro con Thanos.",
-        "img":"src/film/avengers-endgame.jpg",
+        "img":"../src/film/avengers-endgame.jpg",
         "rating":"8.4",
         "trailer":"https://www.youtube.com/embed/CcoMZHqxA_U",
         "anno": "2019",
@@ -117,7 +117,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "2":{
         "titolo":"Shining",
         "sinossi":"Jack Torrance, aspirante scrittore, accetta l'incarico di guardiano invernale di un albergo in un luogo isolato sulle montagne del Colorado. Ma suo figlio Danny inizia a sperimentare delle visioni riguardo i terribili eventi accaduti nella struttura.",
-        "img":"src/film/shining.jpg",
+        "img":"../src/film/shining.jpg",
         "rating":"8.4",
         "anno": "1980",
         "durata": "146",
@@ -127,7 +127,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "3":{
         "titolo":"Rocky",
         "sinossi":"Il pugile dilettante Rocky Balboa ha l'opportunità di raggiungere il successo quando è chiamato a sfidare il campione dei pesi massimi, Apollo Creed. Primo capitolo della fortunata serie, vincitore di tre premi Oscar nel 1977.",
-        "img":"src/film/rocky.jpg",
+        "img":"../src/film/rocky.jpg",
         "rating":"8.1",
         "anno": "1976",
         "durata": "119",
@@ -137,7 +137,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "4":{
         "titolo":"Ritorno al futuro",
         "sinossi":"Il diciottenne Marty ha come amico un bislacco scienziato che ha inventato una macchina per viaggiare nel tempo. Grazie ad essa Marty tornerà indietro nel tempo, fino al 1955.",
-        "img":"src/film/back-to-the-future.jpg",
+        "img":"../src/film/back-to-the-future.jpg",
         "rating":"8.5",
         "anno": "1985",
         "durata": "116",
@@ -147,7 +147,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "5":{
         "titolo":"Matrix Resurrections",
         "sinossi":"Afflitto da strani ricordi, la vita di Neo prende una svolta inaspettata quando si ritrova all'interno di Matrix, ma non ne è consapevole. Questo cambia quando un uomo entra nel mondo di Neo per fargli capire che la realtà in cui vive non è reale.",
-        "img":"src/film/the-matrix-resurrections.jpg",
+        "img":"../src/film/the-matrix-resurrections.jpg",
         "rating":"5.7",
         "anno": "2021",
         "durata": "148",
@@ -157,7 +157,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "6":{
         "titolo":"Pulp Fiction",
         "sinossi":"Si incrociano le strade di personaggi legati al crimine. Un pugile che mente a un capo banda, due sicari che discutono massaggi ai piedi e panini, una coppia che rapina una caffetteria e altri danno vita a un dramma criminale comico quanto brutale.",
-        "img":"src/film/pulp.jpg",
+        "img":"../src/film/pulp.jpg",
         "rating":"8.9",
         "anno": "1994",
         "durata": "153",
@@ -167,7 +167,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "7":{
         "titolo":"Jaws - Lo squalo",
         "sinossi":"Un feroce squalo terrorizza una spiaggia del New England. Ad affrontarlo ci sono un poliziotto locale e degli scienziati, che devono lottare anche contro l'ostruzionismo del sindaco.",
-        "img":"src/film/jaws.jpg",
+        "img":"../src/film/jaws.jpg",
         "rating":"8.1",
         "anno": "1975",
         "durata": "125",
@@ -177,7 +177,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "8":{
         "titolo":"Il Re Leone",
         "sinossi":"Tradito dallo zio che ha ordito un terribile complotto per prendere il potere, il piccolo Simba, leoncino figlio del re della foresta, affronta il proprio destino nel cuore della savana.",
-        "img":"src/film/il-re-leone.jpg",
+        "img":"../src/film/il-re-leone.jpg",
         "rating":"8.5",
         "anno": "2019",
         "durata": "118",
@@ -187,7 +187,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "9":{
         "titolo":"007 - No Time to Die",
         "sinossi":"Dopo aver lasciato i servizi segreti, Bond si gode una vita tranquilla in Giamaica. Tuttavia, la pace conquistata si rivela di breve durata quando il suo vecchio amico Felix Leiter gli chiede aiuto.",
-        "img":"src/film/james-bond-no-time-to-die.jpg",
+        "img":"../src/film/james-bond-no-time-to-die.jpg",
         "rating":"7.3",
         "anno": "2021",
         "durata": "163",
@@ -197,7 +197,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "10":{
         "titolo":"The Batman",
         "sinossi":"L'Enigmista, un sadico assassino seriale, inizia a uccidere le principali figure politiche di Gotham. Batman si vede quindi costretto a indagare sulla corruzione in città e a mettere in discussione il passato della propria famiglia.",
-        "img":"src/film/the-batman.jpg",
+        "img":"../src/film/the-batman.jpg",
         "rating":"7.8",
         "anno":"2022",
         "durata":"175",
@@ -207,7 +207,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "11":{
         "titolo":"Il cavaliere oscuro (The Dark Knight)",
         "sinossi":"Batman e Jim Gordon si alleano con il nuovo procuratore di Gotham City, Harvey Dent, per combattere il crimine organizzato che dilaga in città e fermare un pericoloso rapinatore, il Joker, che ha gettato la città nell'anarchia.",
-        "img":"src/film/dark-knight.jpg",
+        "img":"../src/film/dark-knight.jpg",
         "rating":"9.0",
         "anno":"2008",
         "durata":"152",
@@ -217,7 +217,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "12":{
         "titolo":"Scarface",
         "sinossi":"Tony Montana beneficia di un'amnistia da parte del governo cubano per giungere in Florida. Ambizioso e senza scrupoli, escogita un piano per eliminare un boss della mafia locale e prendere il suo posto nel traffico di droga.",
-        "img":"src/film/scarface.jpg",
+        "img":"../src/film/scarface.jpg",
         "rating":"8.3",
         "anno":"1983",
         "durata":"170",
@@ -227,7 +227,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "13":{
         "titolo":"Top Gun",
         "sinossi":"Un pilota di caccia si innamora della propria bionda istruttrice, Charlotte Blackwood, e si crede responsabile della morte del copilota. L'esperienza nel programma di formazione lo forza a crescere.",
-        "img":"src/film/top-gun.jpg",
+        "img":"../src/film/top-gun.jpg",
         "rating":"6.9",
         "anno":"1986",
         "durata":"109",
@@ -237,7 +237,7 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
     "14":{
         "titolo":"Ghostbusters - Acchiappafantasmi",
         "sinossi":"Peter, Raymond ed Egon sono stati cacciati dall'università, ma il loro sodalizio contro i fantasmi che popolano New York funziona a meraviglia. E' una lotta dura, ma i nostri eroi non temono nulla, neppure il maligno Gozer il Gozeriano.",
-        "img":"src/film/ghostbusters.jpg",
+        "img":"../src/film/ghostbusters.jpg",
         "rating":"7.8",
         "anno":"1984",
         "durata":"107",
@@ -254,12 +254,12 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
         "sottogenere":"Storico, Gangster, Drammatico, Noir",
         "anno":"2013-2022",
         "rating":"8.8",
-        "img":"src/film/peaky-blinders.jpg",
-        "a1":"src/film/peaky-blinders.jpg",
-        "a2":"src/film/peaky-blinders.jpg",
-        "a3":"src/film/peaky-blinders.jpg",
-        "a4":"src/film/peaky-blinders.jpg",
-        "a5":"src/film/peaky-blinders.jpg",
+        "img":"../src/film/peaky-blinders.jpg",
+        "a1":"../src/film/peaky-blinders.jpg",
+        "a2":"../src/film/peaky-blinders.jpg",
+        "a3":"../src/film/peaky-blinders.jpg",
+        "a4":"../src/film/peaky-blinders.jpg",
+        "a5":"../src/film/peaky-blinders.jpg",
         "trailer":"https://www.youtube.com/embed/oVzVdvGIC7U"
     },
     "B":{
@@ -272,12 +272,12 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
         "sottogenere":"Drammatico, Poliziesco, Thriller",
         "anno":"2008-2013",
         "rating":"9.5",
-        "img":"src/film/bb.jpg",
-        "a1":"src/film/bb.jpg",
-        "a2":"src/film/bb.jpg",
-        "a3":"src/film/bb.jpg",
-        "a4":"src/film/bb.jpg",
-        "a5":"src/film/bb.jpg",
+        "img":"../src/film/bb.jpg",
+        "a1":"../src/film/bb.jpg",
+        "a2":"../src/film/bb.jpg",
+        "a3":"../src/film/bb.jpg",
+        "a4":"../src/film/bb.jpg",
+        "a5":"../src/film/bb.jpg",
         "trailer":"https://www.youtube.com/embed/HhesaQXLuRY"
     },
     "C":{
@@ -290,12 +290,12 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
         "sottogenere":"Azione, Avventura, Drammatico",
         "anno":"2011-2019",
         "rating":"9.2",
-        "img":"src/film/got.webp",
-        "a1":"src/film/got.webp",
-        "a2":"src/film/got.webp",
-        "a3":"src/film/got.webp",
-        "a4":"src/film/got.webp",
-        "a5":"src/film/got.webp",
+        "img":"../src/film/got.webp",
+        "a1":"../src/film/got.webp",
+        "a2":"../src/film/got.webp",
+        "a3":"../src/film/got.webp",
+        "a4":"../src/film/got.webp",
+        "a5":"../src/film/got.webp",
         "trailer":"https://www.youtube.com/embed/KPLWWIOCOOQ"
     },
     "D":{
@@ -308,12 +308,12 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
         "sottogenere":"Sitcom",
         "anno":"1994-2004",
         "rating":"8.9",
-        "img":"src/film/friends.jpg",
-        "a1":"src/film/friends.jpg",
-        "a2":"src/film/friends.jpg",
-        "a3":"src/film/friends.jpg",
-        "a4":"src/film/friends.jpg",
-        "a5":"src/film/friends.jpg",
+        "img":"../src/film/friends.jpg",
+        "a1":"../src/film/friends.jpg",
+        "a2":"../src/film/friends.jpg",
+        "a3":"../src/film/friends.jpg",
+        "a4":"../src/film/friends.jpg",
+        "a5":"../src/film/friends.jpg",
         "trailer":"https://www.youtube.com/embed/IEEbUzffzrk"
     },
     "E":{
@@ -326,12 +326,12 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
         "sottogenere":"Commedia Drammatica, Commedia Nera, Satira",
         "anno":"2014-2020",
         "rating":"8.8",
-        "img":"src/film/bojack.jpg",
-        "a1":"src/film/bojack.jpg",
-        "a2":"src/film/bojack.jpg",
-        "a3":"src/film/bojack.jpg",
-        "a4":"src/film/bojack.jpg",
-        "a5":"src/film/bojack.jpg",
+        "img":"../src/film/bojack.jpg",
+        "a1":"../src/film/bojack.jpg",
+        "a2":"../src/film/bojack.jpg",
+        "a3":"../src/film/bojack.jpg",
+        "a4":"../src/film/bojack.jpg",
+        "a5":"../src/film/bojack.jpg",
         "trailer":"https://www.youtube.com/embed/i1eJMig5Ik4"
     },
     "F":{
@@ -344,12 +344,12 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
         "sottogenere":"Fantascienza, Avventura, Commedia nera",
         "anno":"2013 - in corso",
         "rating":"9.1",
-        "img":"src/film/rick.jpg",
-        "a1":"src/film/rick.jpg",
-        "a2":"src/film/rick.jpg",
-        "a3":"src/film/rick.jpg",
-        "a4":"src/film/rick.jpg",
-        "a5":"src/film/rick.jpg",
+        "img":"../src/film/rick.jpg",
+        "a1":"../src/film/rick.jpg",
+        "a2":"../src/film/rick.jpg",
+        "a3":"../src/film/rick.jpg",
+        "a4":"../src/film/rick.jpg",
+        "a5":"../src/film/rick.jpg",
         "trailer":"https://www.youtube.com/embed/_uUcMwsR5hg"
     },
     "G":{
@@ -362,12 +362,12 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
         "sottogenere":"Azione, Commedia nera, Satira, Supereroi",
         "anno":"2019 - in corso",
         "rating":"8.7",
-        "img":"src/film/the-boys.jpg",
-        "a1":"src/film/the-boys.jpg",
-        "a2":"src/film/the-boys.jpg",
-        "a3":"src/film/the-boys.jpg",
-        "a4":"src/film/the-boys.jpg",
-        "a5":"src/film/the-boys.jpg",
+        "img":"../src/film/the-boys.jpg",
+        "a1":"../src/film/the-boys.jpg",
+        "a2":"../src/film/the-boys.jpg",
+        "a3":"../src/film/the-boys.jpg",
+        "a4":"../src/film/the-boys.jpg",
+        "a5":"../src/film/the-boys.jpg",
         "trailer":"https://www.youtube.com/embed/zQE-tZDXqP0"
     },
     "H":{
@@ -380,12 +380,12 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
         "sottogenere":"Medico, Drammatico",
         "anno":"2004-2012",
         "rating":"8.7",
-        "img":"src/film/dr-house.jpg",
-        "a1":"src/film/dr-house.jpg",
-        "a2":"src/film/dr-house.jpg",
-        "a3":"src/film/dr-house.jpg",
-        "a4":"src/film/dr-house.jpg",
-        "a5":"src/film/dr-house.jpg",
+        "img":"../src/film/dr-house.jpg",
+        "a1":"../src/film/dr-house.jpg",
+        "a2":"../src/film/dr-house.jpg",
+        "a3":"../src/film/dr-house.jpg",
+        "a4":"../src/film/dr-house.jpg",
+        "a5":"../src/film/dr-house.jpg",
         "trailer":"https://www.youtube.com/embed/64LGOCKxTdE"
     },
     "I":{
@@ -398,29 +398,29 @@ let infoFilm = { //creazione in locale dell'oggetto con le informazioni da richi
         "sottogenere":"Medico, Drammatico",
         "anno":"2005 - in corso",
         "rating":"7.6",
-        "img":"src/film/grey.jpg",
-        "a1":"src/film/grey.jpg",
-        "a2":"src/film/grey.jpg",
-        "a3":"src/film/grey.jpg",
-        "a4":"src/film/grey.jpg",
-        "a5":"src/film/grey.jpg",
+        "img":"../src/film/grey.jpg",
+        "a1":"../src/film/grey.jpg",
+        "a2":"../src/film/grey.jpg",
+        "a3":"../src/film/grey.jpg",
+        "a4":"../src/film/grey.jpg",
+        "a5":"../src/film/grey.jpg",
         "trailer":"https://www.youtube.com/embed/q1pcpgREQ5c"
     }
 }
 
-let card = document.querySelector(".my-card")
-let internoCard = document.querySelector(".my-card-row")
-let titoloCard = document.querySelector(".my-card-title")
-let sinossiCard = document.querySelector(".my-card-text")
-let imgCard = document.querySelector(".my-card-col-img")
-let testiCard = document.querySelector(".my-card-col-content")
-let rating = document.querySelector(".rating")
-let video = document.querySelector(".video-background")
-let trailerButton = document.querySelectorAll(".trailer")
-let videoTrailer = document.querySelector(".video-trailer")
-let vetro = document.querySelector(".vetro")
-let episodi = document.querySelector(".episodi")
-let stagioni = document.querySelector(".stagioni")
+const card = document.querySelector(".my-card")
+const internoCard = document.querySelector(".my-card-row")
+const titoloCard = document.querySelector(".my-card-title")
+const sinossiCard = document.querySelector(".my-card-text")
+const imgCard = document.querySelector(".my-card-col-img")
+const testiCard = document.querySelector(".my-card-col-content")
+const rating = document.querySelector(".rating")
+const video = document.querySelector(".video-background")
+const trailerButton = document.querySelectorAll(".trailer")
+const videoTrailer = document.querySelector(".video-trailer")
+const vetro = document.querySelector(".vetro")
+const episodi = document.querySelector(".episodi")
+const stagioni = document.querySelector(".stagioni")
 
 
 for (let i = 0; i < containerButton.length; i++){ //ciclo for per gestire i bottoni in hover sulle copertine
@@ -617,11 +617,11 @@ function gestisciErroreCampo(campoX, campoY, validityCampoX, messaggioErrore){
     
 })
 
-let campoEmail2 = document.querySelector("#campo-email2")
-let campoPass2 = document.querySelector("#campo-pass2")
-let campoRipass = document.querySelector("#campo-ripass")
-let privacy = document.querySelector("#privacy-span")
-let informativa = document.querySelector("#informativa")
+const campoEmail2 = document.querySelector("#campo-email2")
+const campoPass2 = document.querySelector("#campo-pass2")
+const campoRipass = document.querySelector("#campo-ripass")
+const privacy = document.querySelector("#privacy-span")
+const informativa = document.querySelector("#informativa")
 
 nuovoformLogin.addEventListener("submit", (event)=>{ //preventDefault del submit, regExp e gestione errore del form di registrazione
     
