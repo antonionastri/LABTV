@@ -35,6 +35,7 @@ Project is created with:
 * BOOTSTRAP
 * JSON
 * OOP
+* AJAX
 	
 ## Installation
 No installation needed
